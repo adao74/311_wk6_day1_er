@@ -70,9 +70,15 @@ We are going to use a sample schema given to use by MySQL.
 
 1. What is the relationship between the "actor" and "film_actor" tables?
 
+One (and only one) to many relationship 
+
 2. What does the blue diamond next to the "last_update" column on the "inventory" table represent?
 
+That column cannot contain NULL values.
+
 3. How many foreign keys does the "payments" table have? How can you tell?
+
+2 (a red diamond indicates a foreign key)
 
 ##### ER Diagram upload
 
